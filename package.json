@@ -1,6 +1,6 @@
 {
-  "name": "emacs-mcx",
-  "displayName": "Awesome Emacs Keymap",
+  "name": "emacs-mcx-biern",
+  "displayName": "Awesome Emacs Keymap (biern hack)",
   "description": "Emacs Friendly Keymap with multi cursor support, improved mark-mode experience, clipboard and kill-ring integration, and lots of improvements and bug fixes.",
   "version": "0.47.0",
   "publisher": "tuttieee",
@@ -373,6 +373,7 @@
     "keybindings": [
       {
         "key": "ctrl+u",
+        "mac": "cmd+u",
         "command": "emacs-mcx.universalArgument",
         "when": "editorTextFocus"
       },
@@ -1914,6 +1915,7 @@
       },
       {
         "key": "ctrl+f",
+        "mac": "cmd+f",
         "command": "emacs-mcx.forwardChar",
         "when": "editorTextFocus"
       },
@@ -1924,6 +1926,7 @@
       },
       {
         "key": "ctrl+f",
+        "mac": "cmd+f",
         "command": "emacs-mcx.forwardChar",
         "when": "terminalFocus"
       },
@@ -1937,6 +1940,7 @@
       },
       {
         "key": "ctrl+f",
+        "mac": "cmd+f",
         "command": "emacs-mcx.isearchExit",
         "when": "!config.emacs-mcx.cursorMoveOnFindWidget && editorFocus && findWidgetVisible && !replaceInputFocussed && !isComposing",
         "args": {
@@ -1950,6 +1954,7 @@
       },
       {
         "key": "ctrl+b",
+        "mac": "cmd+b",
         "command": "emacs-mcx.backwardChar",
         "when": "editorTextFocus"
       },
@@ -1960,6 +1965,7 @@
       },
       {
         "key": "ctrl+b",
+        "mac": "cmd+b",
         "command": "emacs-mcx.backwardChar",
         "when": "terminalFocus"
       },
@@ -1973,6 +1979,7 @@
       },
       {
         "key": "ctrl+b",
+        "mac": "cmd+b",
         "command": "emacs-mcx.isearchExit",
         "when": "!config.emacs-mcx.cursorMoveOnFindWidget && editorFocus && findWidgetVisible && !replaceInputFocussed && !isComposing",
         "args": {
@@ -1986,6 +1993,7 @@
       },
       {
         "key": "ctrl+p",
+        "mac": "cmd+p",
         "command": "emacs-mcx.previousLine",
         "when": "editorTextFocus && !suggestWidgetVisible"
       },
@@ -1996,6 +2004,7 @@
       },
       {
         "key": "ctrl+p",
+        "mac": "cmd+p",
         "command": "emacs-mcx.previousLine",
         "when": "terminalFocus"
       },
@@ -2006,6 +2015,7 @@
       },
       {
         "key": "ctrl+p",
+        "mac": "cmd+p",
         "command": "selectPrevSuggestion",
         "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
       },
@@ -2016,6 +2026,7 @@
       },
       {
         "key": "ctrl+p",
+        "mac": "cmd+p",
         "command": "showPrevParameterHint",
         "when": "parameterHintsMultipleSignatures && parameterHintsVisible && textInputFocus"
       },
@@ -2029,6 +2040,7 @@
       },
       {
         "key": "ctrl+p",
+        "mac": "cmd+p",
         "command": "emacs-mcx.isearchExit",
         "when": "!config.emacs-mcx.cursorMoveOnFindWidget && editorFocus && findWidgetVisible && !replaceInputFocussed && !isComposing",
         "args": {
@@ -2042,6 +2054,7 @@
       },
       {
         "key": "ctrl+n",
+        "mac": "cmd+n",
         "command": "emacs-mcx.nextLine",
         "when": "editorTextFocus"
       },
@@ -2052,6 +2065,7 @@
       },
       {
         "key": "ctrl+n",
+        "mac": "cmd+n",
         "command": "emacs-mcx.nextLine",
         "when": "terminalFocus"
       },
@@ -2062,6 +2076,7 @@
       },
       {
         "key": "ctrl+n",
+        "mac": "cmd+n",
         "command": "selectNextSuggestion",
         "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
       },
@@ -2072,6 +2087,7 @@
       },
       {
         "key": "ctrl+n",
+        "mac": "cmd+n",
         "command": "showNextParameterHint",
         "when": "parameterHintsMultipleSignatures && parameterHintsVisible && textInputFocus"
       },
@@ -2085,6 +2101,7 @@
       },
       {
         "key": "ctrl+n",
+        "mac": "cmd+n",
         "command": "emacs-mcx.isearchExit",
         "when": "!config.emacs-mcx.cursorMoveOnFindWidget && editorFocus && findWidgetVisible && !replaceInputFocussed && !isComposing",
         "args": {
@@ -2098,6 +2115,7 @@
       },
       {
         "key": "ctrl+a",
+        "mac": "cmd+a",
         "command": "emacs-mcx.moveBeginningOfLine",
         "when": "editorTextFocus"
       },
@@ -2108,6 +2126,7 @@
       },
       {
         "key": "ctrl+a",
+        "mac": "cmd+a",
         "command": "emacs-mcx.moveBeginningOfLine",
         "when": "terminalFocus"
       },
@@ -2121,6 +2140,7 @@
       },
       {
         "key": "ctrl+a",
+        "mac": "cmd+a",
         "command": "emacs-mcx.isearchExit",
         "when": "!config.emacs-mcx.cursorMoveOnFindWidget && editorFocus && findWidgetVisible && !replaceInputFocussed && !isComposing",
         "args": {
@@ -2134,6 +2154,7 @@
       },
       {
         "key": "ctrl+e",
+        "mac": "cmd+e",
         "command": "emacs-mcx.moveEndOfLine",
         "when": "editorTextFocus"
       },
@@ -2144,6 +2165,7 @@
       },
       {
         "key": "ctrl+e",
+        "mac": "cmd+e",
         "command": "emacs-mcx.moveEndOfLine",
         "when": "terminalFocus"
       },
@@ -2157,6 +2179,7 @@
       },
       {
         "key": "ctrl+e",
+        "mac": "cmd+e",
         "command": "emacs-mcx.isearchExit",
         "when": "!config.emacs-mcx.cursorMoveOnFindWidget && editorFocus && findWidgetVisible && !replaceInputFocussed && !isComposing",
         "args": {
@@ -2273,6 +2296,7 @@
       },
       {
         "key": "ctrl+right",
+        "mac": "cmd+right",
         "command": "emacs-mcx.forwardWord",
         "when": "editorTextFocus"
       },
@@ -2299,6 +2323,7 @@
       },
       {
         "key": "ctrl+right",
+        "mac": "cmd+right",
         "command": "emacs-mcx.isearchExit",
         "when": "!config.emacs-mcx.cursorMoveOnFindWidget && editorFocus && findWidgetVisible && !replaceInputFocussed && !isComposing",
         "args": {
@@ -2340,6 +2365,7 @@
       },
       {
         "key": "ctrl+left",
+        "mac": "cmd+left",
         "command": "emacs-mcx.backwardWord",
         "when": "editorTextFocus"
       },
@@ -2366,6 +2392,7 @@
       },
       {
         "key": "ctrl+left",
+        "mac": "cmd+left",
         "command": "emacs-mcx.isearchExit",
         "when": "!config.emacs-mcx.cursorMoveOnFindWidget && editorFocus && findWidgetVisible && !replaceInputFocussed && !isComposing",
         "args": {
@@ -2466,6 +2493,7 @@
       },
       {
         "key": "ctrl+v",
+        "mac": "cmd+v",
         "command": "emacs-mcx.scrollUpCommand",
         "when": "editorTextFocus && !suggestWidgetVisible"
       },
@@ -2479,6 +2507,7 @@
       },
       {
         "key": "ctrl+v",
+        "mac": "cmd+v",
         "command": "emacs-mcx.isearchExit",
         "when": "editorFocus && findWidgetVisible && !isComposing",
         "args": {
@@ -2575,6 +2604,7 @@
       },
       {
         "key": "ctrl+up",
+        "mac": "cmd+up",
         "command": "emacs-mcx.backwardParagraph",
         "when": "editorTextFocus && !suggestWidgetVisible"
       },
@@ -2601,6 +2631,7 @@
       },
       {
         "key": "ctrl+down",
+        "mac": "cmd+down",
         "command": "emacs-mcx.forwardParagraph",
         "when": "editorTextFocus && !suggestWidgetVisible"
       },
@@ -2797,6 +2828,7 @@
       },
       {
         "key": "ctrl+x `",
+        "mac": "cmd+x `",
         "command": "editor.action.marker.next",
         "when": "editorTextFocus"
       },
@@ -2824,26 +2856,31 @@
       },
       {
         "key": "ctrl+l",
+        "mac": "cmd+l",
         "command": "emacs-mcx.recenterTopBottom",
         "when": "editorTextFocus"
       },
       {
         "key": "ctrl+s",
+        "mac": "cmd+s",
         "command": "emacs-mcx.isearchForward",
         "when": "!findInputFocussed"
       },
       {
         "key": "ctrl+s",
+        "mac": "cmd+s",
         "command": "editor.action.nextMatchFindAction",
         "when": "findInputFocussed"
       },
       {
         "key": "ctrl+r",
+        "mac": "cmd+r",
         "command": "emacs-mcx.isearchBackward",
         "when": "!findInputFocussed"
       },
       {
         "key": "ctrl+r",
+        "mac": "cmd+r",
         "command": "editor.action.previousMatchFindAction",
         "when": "findInputFocussed"
       },
@@ -2975,31 +3012,37 @@
       },
       {
         "key": "ctrl+f",
+        "mac": "cmd+f",
         "command": "",
         "when": "isWindows && config.emacs-mcx.cursorMoveOnFindWidget && findInputFocussed && !isComposing"
       },
       {
         "key": "ctrl+b",
+        "mac": "cmd+b",
         "command": "",
         "when": "isWindows && config.emacs-mcx.cursorMoveOnFindWidget && findInputFocussed && !isComposing"
       },
       {
         "key": "ctrl+p",
+        "mac": "cmd+p",
         "command": "",
         "when": "isWindows && config.emacs-mcx.cursorMoveOnFindWidget && findInputFocussed && !isComposing"
       },
       {
         "key": "ctrl+n",
+        "mac": "cmd+n",
         "command": "",
         "when": "isWindows && config.emacs-mcx.cursorMoveOnFindWidget && findInputFocussed && !isComposing"
       },
       {
         "key": "ctrl+a",
+        "mac": "cmd+a",
         "command": "",
         "when": "isWindows && config.emacs-mcx.cursorMoveOnFindWidget && findInputFocussed && !isComposing"
       },
       {
         "key": "ctrl+e",
+        "mac": "cmd+e",
         "command": "",
         "when": "isWindows && config.emacs-mcx.cursorMoveOnFindWidget && findInputFocussed && !isComposing"
       },
@@ -3020,11 +3063,13 @@
       },
       {
         "key": "ctrl+d",
+        "mac": "cmd+d",
         "command": "",
         "when": "isWindows && config.emacs-mcx.cursorMoveOnFindWidget && findInputFocussed && !isComposing"
       },
       {
         "key": "ctrl+h",
+        "mac": "cmd+h",
         "command": "",
         "when": "isWindows && config.emacs-mcx.cursorMoveOnFindWidget && findInputFocussed && !isComposing"
       },
@@ -3035,11 +3080,13 @@
       },
       {
         "key": "ctrl+k",
+        "mac": "cmd+k",
         "command": "",
         "when": "isWindows && config.emacs-mcx.cursorMoveOnFindWidget && findInputFocussed && !isComposing"
       },
       {
         "key": "ctrl+w",
+        "mac": "cmd+w",
         "command": "",
         "when": "isWindows && config.emacs-mcx.cursorMoveOnFindWidget && findInputFocussed && !isComposing"
       },
@@ -3050,6 +3097,7 @@
       },
       {
         "key": "ctrl+y",
+        "mac": "cmd+y",
         "command": "",
         "when": "isWindows && config.emacs-mcx.cursorMoveOnFindWidget && findInputFocussed && !isComposing"
       },
@@ -3060,11 +3108,13 @@
       },
       {
         "key": "ctrl+m",
+        "mac": "cmd+m",
         "command": "",
         "when": "isWindows && config.emacs-mcx.cursorMoveOnFindWidget && findInputFocussed && !isComposing"
       },
       {
         "key": "ctrl+j",
+        "mac": "cmd+j",
         "command": "",
         "when": "isWindows && config.emacs-mcx.cursorMoveOnFindWidget && findInputFocussed && !isComposing"
       },
@@ -3085,31 +3135,37 @@
       },
       {
         "key": "ctrl+f",
+        "mac": "cmd+f",
         "command": "",
         "when": "isWindows && replaceInputFocussed && !isComposing"
       },
       {
         "key": "ctrl+b",
+        "mac": "cmd+b",
         "command": "",
         "when": "isWindows && replaceInputFocussed && !isComposing"
       },
       {
         "key": "ctrl+p",
+        "mac": "cmd+p",
         "command": "",
         "when": "isWindows && replaceInputFocussed && !isComposing"
       },
       {
         "key": "ctrl+n",
+        "mac": "cmd+n",
         "command": "",
         "when": "isWindows && replaceInputFocussed && !isComposing"
       },
       {
         "key": "ctrl+a",
+        "mac": "cmd+a",
         "command": "",
         "when": "isWindows && replaceInputFocussed && !isComposing"
       },
       {
         "key": "ctrl+e",
+        "mac": "cmd+e",
         "command": "",
         "when": "isWindows && replaceInputFocussed && !isComposing"
       },
@@ -3130,11 +3186,13 @@
       },
       {
         "key": "ctrl+d",
+        "mac": "cmd+d",
         "command": "",
         "when": "isWindows && replaceInputFocussed && !isComposing"
       },
       {
         "key": "ctrl+h",
+        "mac": "cmd+h",
         "command": "",
         "when": "isWindows && replaceInputFocussed && !isComposing"
       },
@@ -3145,11 +3203,13 @@
       },
       {
         "key": "ctrl+k",
+        "mac": "cmd+k",
         "command": "",
         "when": "isWindows && replaceInputFocussed && !isComposing"
       },
       {
         "key": "ctrl+w",
+        "mac": "cmd+w",
         "command": "",
         "when": "isWindows && replaceInputFocussed && !isComposing"
       },
@@ -3160,6 +3220,7 @@
       },
       {
         "key": "ctrl+y",
+        "mac": "cmd+y",
         "command": "",
         "when": "isWindows && replaceInputFocussed && !isComposing"
       },
@@ -3170,11 +3231,13 @@
       },
       {
         "key": "ctrl+m",
+        "mac": "cmd+m",
         "command": "",
         "when": "isWindows && replaceInputFocussed && !isComposing"
       },
       {
         "key": "ctrl+j",
+        "mac": "cmd+j",
         "command": "",
         "when": "isWindows && replaceInputFocussed && !isComposing"
       },
@@ -3237,11 +3300,13 @@
       },
       {
         "key": "ctrl+d",
+        "mac": "cmd+d",
         "command": "emacs-mcx.deleteForwardChar",
         "when": "editorTextFocus && !editorReadonly"
       },
       {
         "key": "ctrl+h",
+        "mac": "cmd+h",
         "command": "emacs-mcx.deleteBackwardChar",
         "when": "editorTextFocus && !editorReadonly"
       },
@@ -3289,21 +3354,25 @@
       },
       {
         "key": "ctrl+k",
+        "mac": "cmd+k",
         "command": "emacs-mcx.killLine",
         "when": "editorTextFocus && !editorReadonly"
       },
       {
         "key": "ctrl+shift+backspace",
+        "mac": "cmd+shift+backspace",
         "command": "emacs-mcx.killWholeLine",
         "when": "editorTextFocus"
       },
       {
         "key": "ctrl+w",
+        "mac": "cmd+w",
         "command": "emacs-mcx.killRegion",
         "when": "editorTextFocus && !editorReadonly"
       },
       {
         "key": "ctrl+w",
+        "mac": "cmd+w",
         "command": "emacs-mcx.isearchExit",
         "when": "editorFocus && findWidgetVisible && !isComposing"
       },
@@ -3351,16 +3420,19 @@
       },
       {
         "key": "ctrl+y",
+        "mac": "cmd+y",
         "command": "emacs-mcx.yank",
         "when": "editorTextFocus && !editorReadonly"
       },
       {
         "key": "ctrl+y",
+        "mac": "cmd+y",
         "command": "emacs-mcx.yank",
         "when": "emacs-mcx.minibufferReading"
       },
       {
         "key": "ctrl+y",
+        "mac": "cmd+y",
         "command": "emacs-mcx.isearchExit",
         "when": "editorFocus && findWidgetVisible && !isComposing"
       },
@@ -3408,41 +3480,49 @@
       },
       {
         "key": "ctrl+o",
+        "mac": "cmd+o",
         "command": "lineBreakInsert",
         "when": "editorTextFocus && !editorReadonly"
       },
       {
         "key": "ctrl+o",
+        "mac": "cmd+o",
         "command": "emacs-mcx.isearchExit",
         "when": "editorFocus && findWidgetVisible && !isComposing"
       },
       {
         "key": "ctrl+m",
+        "mac": "cmd+m",
         "command": "emacs-mcx.newLine",
         "when": "editorTextFocus && !editorReadonly"
       },
       {
         "key": "ctrl+m",
+        "mac": "cmd+m",
         "command": "emacs-mcx.isearchExit",
         "when": "editorFocus && findWidgetVisible && !isComposing"
       },
       {
         "key": "ctrl+j",
+        "mac": "cmd+j",
         "command": "emacs-mcx.newLine",
         "when": "editorTextFocus && !editorReadonly"
       },
       {
         "key": "ctrl+j",
+        "mac": "cmd+j",
         "command": "emacs-mcx.isearchExit",
         "when": "editorFocus && findWidgetVisible && !isComposing"
       },
       {
         "key": "ctrl+x ctrl+o",
+        "mac": "cmd+x cmd+o",
         "command": "emacs-mcx.deleteBlankLines",
         "when": "editorTextFocus && !editorReadonly"
       },
       {
         "key": "ctrl+x ctrl+o",
+        "mac": "cmd+x cmd+o",
         "command": "emacs-mcx.isearchExit",
         "when": "editorFocus && findWidgetVisible && !isComposing",
         "args": {
@@ -3451,11 +3531,13 @@
       },
       {
         "key": "ctrl+x h",
+        "mac": "cmd+x h",
         "command": "editor.action.selectAll",
         "when": "editorTextFocus"
       },
       {
         "key": "ctrl+x h",
+        "mac": "cmd+x h",
         "command": "emacs-mcx.isearchExit",
         "when": "editorFocus && findWidgetVisible && !isComposing",
         "args": {
@@ -3464,21 +3546,25 @@
       },
       {
         "key": "ctrl+x u",
+        "mac": "cmd+x u",
         "command": "undo",
         "when": "editorTextFocus && !editorReadonly"
       },
       {
         "key": "ctrl+/",
+        "mac": "cmd+/",
         "command": "undo",
         "when": "editorTextFocus && !editorReadonly"
       },
       {
         "key": "ctrl+shift+-",
+        "mac": "cmd+shift+-",
         "command": "undo",
         "when": "editorTextFocus && !editorReadonly"
       },
       {
         "key": "ctrl+x u",
+        "mac": "cmd+x u",
         "command": "emacs-mcx.isearchExit",
         "when": "editorFocus && findWidgetVisible && !isComposing",
         "args": {
@@ -3487,6 +3573,7 @@
       },
       {
         "key": "ctrl+/",
+        "mac": "cmd+/",
         "command": "emacs-mcx.isearchExit",
         "when": "editorFocus && findWidgetVisible && !isComposing",
         "args": {
@@ -3495,6 +3582,7 @@
       },
       {
         "key": "ctrl+shift+-",
+        "mac": "cmd+shift+-",
         "command": "emacs-mcx.isearchExit",
         "when": "editorFocus && findWidgetVisible && !isComposing",
         "args": {
@@ -3503,11 +3591,13 @@
       },
       {
         "key": "ctrl+;",
+        "mac": "cmd+;",
         "command": "editor.action.commentLine",
         "when": "editorTextFocus && !editorReadonly"
       },
       {
         "key": "ctrl+;",
+        "mac": "cmd+;",
         "command": "emacs-mcx.isearchExit",
         "when": "editorFocus && findWidgetVisible && !isComposing",
         "args": {
@@ -3570,6 +3660,7 @@
       },
       {
         "key": "ctrl+x ctrl+l",
+        "mac": "cmd+x cmd+l",
         "command": "emacs-mcx.transformToLowercase",
         "when": "editorTextFocus && !editorReadonly"
       },
@@ -3596,6 +3687,7 @@
       },
       {
         "key": "ctrl+x ctrl+u",
+        "mac": "cmd+x cmd+u",
         "command": "emacs-mcx.transformToUppercase",
         "when": "editorTextFocus && !editorReadonly"
       },
@@ -3690,11 +3782,13 @@
       },
       {
         "key": "ctrl+g",
+        "mac": "cmd+g",
         "command": "emacs-mcx.cancel",
         "when": "editorTextFocus"
       },
       {
         "key": "ctrl+g",
+        "mac": "cmd+g",
         "command": "emacs-mcx.isearchAbort",
         "when": "editorFocus && findWidgetVisible && !isComposing"
       },
@@ -3705,231 +3799,277 @@
       },
       {
         "key": "ctrl+g",
+        "mac": "cmd+g",
         "command": "noop",
         "when": "sideBarFocus"
       },
       {
         "key": "ctrl+g",
+        "mac": "cmd+g",
         "command": "closeReferenceSearch",
         "when": "inReferenceSearchEditor && !config.editor.stablePeek"
       },
       {
         "key": "ctrl+g",
+        "mac": "cmd+g",
         "command": "editor.closeTestPeek",
         "when": "testing.isInPeek && !config.editor.stablePeek || testing.isPeekVisible && !config.editor.stablePeek"
       },
       {
         "key": "ctrl+g",
+        "mac": "cmd+g",
         "command": "notebook.cell.quitEdit",
         "when": "inputFocus && notebookEditorFocused && !editorHasMultipleSelections && !editorHasSelection && !editorHoverVisible"
       },
       {
         "key": "ctrl+g",
+        "mac": "cmd+g",
         "command": "closeBreakpointWidget",
         "when": "breakpointWidgetVisible && textInputFocus"
       },
       {
         "key": "ctrl+g",
+        "mac": "cmd+g",
         "command": "editor.action.inlineSuggest.hide",
         "when": "inlineSuggestionVisible"
       },
       {
         "key": "ctrl+g",
+        "mac": "cmd+g",
         "command": "editor.action.webvieweditor.hideFind",
         "when": "webviewFindWidgetVisible && !editorFocus && activeEditor == 'WebviewEditor'"
       },
       {
         "key": "ctrl+g",
+        "mac": "cmd+g",
         "command": "editor.cancelOperation",
         "when": "cancellableOperation"
       },
       {
         "key": "ctrl+g",
+        "mac": "cmd+g",
         "command": "editor.debug.action.closeExceptionWidget",
         "when": "exceptionWidgetVisible"
       },
       {
         "key": "ctrl+g",
+        "mac": "cmd+g",
         "command": "editor.gotoNextSymbolFromResult.cancel",
         "when": "hasSymbols"
       },
       {
         "key": "ctrl+g",
+        "mac": "cmd+g",
         "command": "search.action.focusQueryEditorWidget",
         "when": "inSearchEditor"
       },
       {
         "key": "ctrl+g",
+        "mac": "cmd+g",
         "command": "settings.action.clearSearchResults",
         "when": "inSettingsEditor && inSettingsSearch"
       },
       {
         "key": "ctrl+g",
+        "mac": "cmd+g",
         "command": "welcome.goBack",
         "when": "inWelcome && activeEditor == 'gettingStartedPage'"
       },
       {
         "key": "ctrl+g",
+        "mac": "cmd+g",
         "command": "workbench.action.hideComment",
         "when": "commentEditorFocused"
       },
       {
         "key": "ctrl+g",
+        "mac": "cmd+g",
         "command": "leaveEditorMessage",
         "when": "messageVisible"
       },
       {
         "key": "ctrl+g",
+        "mac": "cmd+g",
         "command": "leaveSnippet",
         "when": "editorTextFocus && inSnippetMode"
       },
       {
         "key": "ctrl+g",
+        "mac": "cmd+g",
         "command": "closeDirtyDiff",
         "when": "dirtyDiffVisible"
       },
       {
         "key": "ctrl+g",
+        "mac": "cmd+g",
         "command": "closeMarkersNavigation",
         "when": "editorFocus && markersNavigationVisible"
       },
       {
         "key": "ctrl+g",
+        "mac": "cmd+g",
         "command": "notifications.hideToasts",
         "when": "notificationToastsVisible"
       },
       {
         "key": "ctrl+g",
+        "mac": "cmd+g",
         "command": "closeParameterHints",
         "when": "editorFocus && parameterHintsVisible"
       },
       {
         "key": "ctrl+g",
+        "mac": "cmd+g",
         "command": "hideSuggestWidget",
         "when": "suggestWidgetVisible && textInputFocus"
       },
       {
         "key": "ctrl+g",
+        "mac": "cmd+g",
         "command": "cancelLinkedEditingInput",
         "when": "LinkedEditingInputVisible && editorTextFocus"
       },
       {
         "key": "ctrl+g",
+        "mac": "cmd+g",
         "command": "cancelRenameInput",
         "when": "editorFocus && renameInputVisible"
       },
       {
         "key": "ctrl+g",
+        "mac": "cmd+g",
         "command": "closeAccessibilityHelp",
         "when": "accessibilityHelpWidgetVisible && editorFocus"
       },
       {
         "key": "ctrl+g",
+        "mac": "cmd+g",
         "command": "closeReplaceInFilesWidget",
         "when": "replaceInputBoxFocus && searchViewletVisible"
       },
       {
         "key": "ctrl+g",
+        "mac": "cmd+g",
         "command": "keybindings.editor.clearSearchResults",
         "when": "inKeybindings && inKeybindingsSearch"
       },
       {
         "key": "ctrl+g",
+        "mac": "cmd+g",
         "command": "list.clear",
         "when": "listFocus && listHasSelectionOrFocus && !inputFocus"
       },
       {
         "key": "ctrl+g",
+        "mac": "cmd+g",
         "command": "notebook.hideFind",
         "when": "notebookEditorFocused && notebookFindWidgetFocused"
       },
       {
         "key": "ctrl+g",
+        "mac": "cmd+g",
         "command": "search.action.cancel",
         "when": "listFocus && searchViewletVisible && !inputFocus && searchState != '0'"
       },
       {
         "key": "ctrl+g",
+        "mac": "cmd+g",
         "command": "settings.action.focusLevelUp",
         "when": "inSettingsEditor && !inSettingsJSONEditor && !inSettingsSearch"
       },
       {
         "key": "ctrl+g",
+        "mac": "cmd+g",
         "command": "workbench.action.closeQuickOpen",
         "when": "inQuickOpen"
       },
       {
         "key": "ctrl+g",
+        "mac": "cmd+g",
         "command": "workbench.action.hideInterfaceOverview",
         "when": "interfaceOverviewVisible"
       },
       {
         "key": "ctrl+g",
+        "mac": "cmd+g",
         "command": "workbench.action.terminal.clearSelection",
         "when": "terminalFocus && terminalHasBeenCreated && terminalTextSelected && !terminalFindVisible || terminalFocus && terminalProcessSupported && terminalTextSelected && !terminalFindVisible"
       },
       {
         "key": "ctrl+g",
+        "mac": "cmd+g",
         "command": "workbench.action.terminal.hideFind",
         "when": "terminalFindVisible && terminalFocus && terminalHasBeenCreated || terminalFindVisible && terminalFocus && terminalProcessSupported"
       },
       {
         "key": "ctrl+g",
+        "mac": "cmd+g",
         "command": "workbench.action.terminal.navigationModeExit",
         "when": "accessibilityModeEnabled && terminalA11yTreeFocus && terminalProcessSupported"
       },
       {
         "key": "ctrl+g",
+        "mac": "cmd+g",
         "command": "workbench.banner.focusBanner",
         "when": "bannerFocused"
       },
       {
         "key": "ctrl+g",
+        "mac": "cmd+g",
         "command": "workbench.statusBar.clearFocus",
         "when": "statusBarFocused"
       },
       {
         "key": "ctrl+g",
+        "mac": "cmd+g",
         "command": "breadcrumbs.selectEditor",
         "when": "breadcrumbsActive && breadcrumbsVisible"
       },
       {
         "key": "ctrl+g",
+        "mac": "cmd+g",
         "command": "editor.closeCallHierarchy",
         "when": "callHierarchyVisible && !config.editor.stablePeek"
       },
       {
         "key": "ctrl+g",
+        "mac": "cmd+g",
         "command": "editor.closeTypeHierarchy",
         "when": "typeHierarchyVisible && !config.editor.stablePeek"
       },
       {
         "key": "ctrl+g",
+        "mac": "cmd+g",
         "command": "filesExplorer.cancelCut",
         "when": "explorerResourceCut && explorerViewletVisible && filesExplorerFocus && !inputFocus"
       },
       {
         "key": "ctrl+g",
+        "mac": "cmd+g",
         "command": "closeReferenceSearch",
         "when": "referenceSearchVisible && !config.editor.stablePeek"
       },
       {
         "key": "ctrl+g",
+        "mac": "cmd+g",
         "command": "notifications.hideList",
         "when": "notificationCenterVisible"
       },
       {
         "key": "ctrl+g",
+        "mac": "cmd+g",
         "command": "notifications.hideToasts",
         "when": "notificationFocus && notificationToastsVisible"
       },
       {
         "key": "ctrl+space",
+        "mac": "cmd+space",
         "command": "emacs-mcx.setMarkCommand",
         "when": "editorTextFocus"
       },
       {
         "key": "ctrl+shift+2",
+        "mac": "cmd+shift+2",
         "command": "emacs-mcx.setMarkCommand",
         "when": "editorTextFocus"
       },
@@ -3940,16 +4080,19 @@
       },
       {
         "key": "ctrl+x ctrl+x",
+        "mac": "cmd+x cmd+x",
         "command": "emacs-mcx.exchangePointAndMark",
         "when": "editorTextFocus"
       },
       {
         "key": "ctrl+x space",
+        "mac": "cmd+x space",
         "command": "emacs-mcx.rectangleMarkMode",
         "when": "editorTextFocus"
       },
       {
         "key": "ctrl+x r",
+        "mac": "cmd+x r",
         "command": "emacs-mcx.startRectCommand",
         "when": "editorTextFocus"
       },
@@ -4771,11 +4914,13 @@
       },
       {
         "key": "ctrl+'",
+        "mac": "cmd+'",
         "command": "editor.action.triggerSuggest",
         "when": "editorTextFocus"
       },
       {
         "key": "ctrl+'",
+        "mac": "cmd+'",
         "command": "toggleSuggestionDetails",
         "when": "editorTextFocus && suggestWidgetVisible"
       },
@@ -4865,75 +5010,90 @@
       },
       {
         "key": "ctrl+x ctrl+c",
+        "mac": "cmd+x cmd+c",
         "command": "workbench.action.closeWindow"
       },
       {
         "key": "ctrl+x z",
+        "mac": "cmd+x z",
         "command": "workbench.action.toggleZenMode",
         "when": "!terminalFocus"
       },
       {
         "key": "ctrl+x ctrl+f",
+        "mac": "cmd+x cmd+f",
         "command": "workbench.action.quickOpen",
         "when": "!terminalFocus"
       },
       {
         "key": "ctrl+x ctrl+s",
+        "mac": "cmd+x cmd+s",
         "command": "workbench.action.files.save",
         "when": "!terminalFocus"
       },
       {
         "key": "ctrl+x ctrl+w",
+        "mac": "cmd+x cmd+w",
         "command": "workbench.action.files.saveAs",
         "when": "!terminalFocus"
       },
       {
         "key": "ctrl+x s",
+        "mac": "cmd+x s",
         "command": "workbench.action.files.saveAll",
         "when": "!terminalFocus"
       },
       {
         "key": "ctrl+x ctrl+n",
+        "mac": "cmd+x cmd+n",
         "command": "workbench.action.newWindow",
         "when": "!terminalFocus"
       },
       {
         "key": "ctrl+x b",
+        "mac": "cmd+x b",
         "command": "workbench.action.showAllEditorsByMostRecentlyUsed",
         "when": "!terminalFocus"
       },
       {
         "key": "ctrl+x k",
+        "mac": "cmd+x k",
         "command": "workbench.action.closeActiveEditor",
         "when": "!terminalFocus"
       },
       {
         "key": "ctrl+x 0",
+        "mac": "cmd+x 0",
         "command": "workbench.action.closeEditorsInGroup",
         "when": "!terminalFocus"
       },
       {
         "key": "ctrl+x 1",
+        "mac": "cmd+x 1",
         "command": "workbench.action.closeEditorsInOtherGroups",
         "when": "!terminalFocus"
       },
       {
         "key": "ctrl+x 2",
+        "mac": "cmd+x 2",
         "command": "workbench.action.splitEditorDown",
         "when": "!terminalFocus"
       },
       {
         "key": "ctrl+x 3",
+        "mac": "cmd+x 3",
         "command": "workbench.action.splitEditorRight",
         "when": "!terminalFocus"
       },
       {
         "key": "ctrl+x 4",
+        "mac": "cmd+x 4",
         "command": "workbench.action.toggleEditorGroupLayout",
         "when": "!terminalFocus"
       },
       {
         "key": "ctrl+x o",
+        "mac": "cmd+x o",
         "command": "workbench.action.navigateEditorGroups",
         "when": "!terminalFocus"
       },
@@ -5044,49 +5204,59 @@
       },
       {
         "key": "ctrl+p",
+        "mac": "cmd+p",
         "command": "selectPrevQuickFix",
         "when": "editorFocus && quickFixWidgetVisible"
       },
       {
         "key": "ctrl+n",
+        "mac": "cmd+n",
         "command": "selectNextQuickFix",
         "when": "editorFocus && quickFixWidgetVisible"
       },
       {
         "key": "ctrl+p",
+        "mac": "cmd+p",
         "command": "workbench.action.quickOpenSelectPrevious",
         "when": "inQuickOpen"
       },
       {
         "key": "ctrl+n",
+        "mac": "cmd+n",
         "command": "workbench.action.quickOpenSelectNext",
         "when": "inQuickOpen"
       },
       {
         "key": "ctrl+m",
+        "mac": "cmd+m",
         "command": "workbench.action.acceptSelectedQuickOpenItem",
         "when": "inQuickOpen"
       },
       {
         "key": "ctrl+shift+'",
+        "mac": "cmd+shift+'",
         "command": "editor.action.triggerParameterHints",
         "when": "editorTextFocus"
       },
       {
         "key": "ctrl+x j",
+        "mac": "cmd+x j",
         "command": "workbench.action.togglePanel",
         "when": "!terminalFocus"
       },
       {
         "key": "ctrl+i",
+        "mac": "cmd+i",
         "command": "tab"
       },
       {
         "key": "ctrl+x left",
+        "mac": "cmd+x left",
         "command": "workbench.action.previousEditor"
       },
       {
         "key": "ctrl+x right",
+        "mac": "cmd+x right",
         "command": "workbench.action.nextEditor"
       }
     ]

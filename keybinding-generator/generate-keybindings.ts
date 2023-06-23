@@ -132,6 +132,11 @@ export function generateKeybindings(src: KeyBindingSource): KeyBinding[] {
       } else {
         keybindings.push({
           key,
+          ...(key.includes("ctrl")
+            ? {
+                mac: replaceAll(key, "ctrl", "cmd"),
+              }
+            : {}),
           command: src.command,
           when,
           ...(src.args ? { args: src.args } : {}),
